@@ -232,7 +232,6 @@ header {
   box-sizing: border-box;
 
   width: 350px;
-  height: 350px;
 
   margin: 10px 15px;
   padding: 24px;
@@ -254,7 +253,6 @@ header {
   box-sizing: border-box;
 
   width: 350px;
-  height: 350px;
 
   margin: 10px 15px;
   padding: 0;
@@ -382,6 +380,10 @@ header {
   text-align: center;
 }
 
+.footer-s2 div {
+  margin: 8px;
+}
+
 input {
   box-sizing: border-box;
 
@@ -416,11 +418,15 @@ input {
 
   background-image: url("../images/send.svg");
 
+  border: none;
+
   content: "";
 }
 
 .email-text {
+  margin-bottom: 9px;
   font-size: 18px;
+
   line-height: 160%;
 }
 
