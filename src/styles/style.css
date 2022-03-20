@@ -184,8 +184,6 @@ header {
 }
 
 .video-title {
-  position: initial;
-
   margin-bottom: 30px;
 
   color: #2a2626;
@@ -199,9 +197,13 @@ header {
 .player-container {
   display: flex;
   justify-content: center;
+
+  height: 469px;
 }
 
 .video-player {
+  position: absolute;
+
   z-index: 1;
 
   filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
@@ -210,7 +212,7 @@ header {
 .rectangle {
   position: absolute;
 
-  bottom: 0;
+  bottom: -100;
 
   width: 100%;
   height: 100px;
@@ -226,7 +228,7 @@ header {
 
 .cards-section {
   max-width: 1140px;
-  padding-top: 90px;
+  padding-top: 190px;
   padding-bottom: 90px;
 }
 
