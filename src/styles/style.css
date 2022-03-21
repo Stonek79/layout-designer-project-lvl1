@@ -186,14 +186,13 @@ header {
 }
 
 .video-title {
-  margin-bottom: 30px;
-
   color: #2a2626;
   text-align: center;
 }
 
 .video-text {
   text-align: center;
+  margin: 30px;
 }
 
 .player-container {
@@ -239,6 +238,10 @@ header {
   text-decoration: none;
 
   background: #f5f4f0;
+}
+
+.card p:last-child {
+  margin-bottom: 0;
 }
 
 .card:hover p {
